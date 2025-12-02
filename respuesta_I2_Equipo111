@@ -1,1 +1,26 @@
 alumnos: ignacio villalba, maximo duarte 
+A_
+B_
+C_No, no puede, gamma solo puede actualizar desde el repositorio original
+D_No, no se pierden si no hay ningun tipo de conflicto
+E_  
+    gamma 
+    git clone https://github.com/nachoVillalba/TP_SO_i2_Equipo.git
+    cd TP_SO_i2_Equipo
+    nano fork.txt
+    git add fork.txt
+    git commit -m "Gamma agrega sus datos"
+    git push
+    beta
+    git clone https://github.com/nachoVillalba/TP_SO_i2_Equipo.git
+    cd TP_SO_i2_Equipo
+    echo "Archivo creado por BETA" > NuevoDato.txt
+    git add NuevoDato.txt
+    git commit -m "BETA agrega NuevoDato.txt"
+    git push
+    gamma
+    git remote add upstream https://github.com/nachoVillalba/TP_SO_i2_Equipo.git
+    git fetch upstream
+    git merge upstream/main
+    git push
+
