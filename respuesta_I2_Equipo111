@@ -1,5 +1,5 @@
 alumnos: ignacio villalba, maximo duarte 
-A_
+A_Para hacer esto debo usar los comandos git remote and upstream, git fetch upstream, git merge upstream/main
 B_No, no puede, alfa solo puede actualizar desde el repositorio original
 C_No, no puede, gamma solo puede actualizar desde el repositorio original
 D_No, no se pierden si no hay ningun tipo de conflicto
